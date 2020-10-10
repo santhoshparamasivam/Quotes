@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="skinfotech.com.quotes">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true"/>
+        <activity
+            android:name=".FeedBack"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AboutApp"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Motivational"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".ViewQuoteActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Funny"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".Love"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".Dream"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".Broken"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".Workout"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".Sports"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".Lessons"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".Music"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".Friendship"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".Success"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".Submission"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+
+    </application>
+
+</manifest>
