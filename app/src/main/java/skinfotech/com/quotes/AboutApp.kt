@@ -29,7 +29,7 @@ class AboutApp : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         val id = item.itemId
         if (id == R.id.rate) {
-            val url = "https://play.google.com/store/apps/details?id=com.skinfotech.stories"
+            val url = "https://play.google.com/store/apps/details?id=skinfotech.com.quotes"
             val i = Intent(Intent.ACTION_VIEW)
             i.data = Uri.parse(url)
             startActivity(i)

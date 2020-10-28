@@ -152,6 +152,11 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this@MainActivity, Success::class.java)
             startActivity(intent)
         }
+        val b12 = findViewById<View>(R.id.button12) as Button
+        b12.setOnClickListener {
+            val intent = Intent(this@MainActivity, TamilQuotes::class.java)
+            startActivity(intent)
+        }
 
         //Images
 
